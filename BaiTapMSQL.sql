@@ -115,6 +115,8 @@ FROM
     DONGXE
 WHERE
     SoChoNgoi > 5;
+    
+    
 SELECT 
     NCC.MaNhaCC, NCC.TenNhaCC
 FROM
@@ -195,4 +197,3 @@ FROM
     DANGKYCUNGCAP AS DK ON NCC.MaNhaCC = DK.MaDKCC
 WHERE
     DK.MaNhaCC IS NULL;
-
